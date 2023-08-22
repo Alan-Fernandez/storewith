@@ -33,9 +33,9 @@ function App() {
   return (
     <ShoppingCartProvider>
       <BrowserRouter>
-      <AppRoutes/>
-      <Navbar/>
-      <CheckoutSideMenu/>
+        <AppRoutes />
+        <Navbar />
+        <CheckoutSideMenu />
       </BrowserRouter>
     </ShoppingCartProvider>
   )

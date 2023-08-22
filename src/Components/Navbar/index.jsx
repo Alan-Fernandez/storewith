@@ -45,14 +45,14 @@ const Navbar = () => {
             </NavLink>
         </li>
         <li>
-            <NavLink             
+        <NavLink
             to='/furnitures'
             onClick={() => context.setSearchByCategory('furnitures')}
             className={({ isActive }) =>
               isActive ? activeStyle : undefined
             }>
-                Furnitures
-            </NavLink>
+            Furnitures
+          </NavLink>
         </li>
         <li>
             <NavLink             
@@ -65,14 +65,14 @@ const Navbar = () => {
             </NavLink>
         </li>
         <li>
-            <NavLink    
+        <NavLink
             to='/others'
             onClick={() => context.setSearchByCategory('others')}
             className={({ isActive }) =>
               isActive ? activeStyle : undefined
             }>
-                Others
-            </NavLink>
+            Others
+          </NavLink>
         </li>
       </ul>
 
